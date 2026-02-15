@@ -46,7 +46,7 @@ int main()
 	std::cout << "Enter raw data file name: ";
 	std::cin >> filename;
 
-	std::cout << "Enter minimu score: ";
+	std::cout << "Enter minimum score: ";
 	std::cin >> minimuscore;
 
 	std::cout << "Enter TOP K results: ";
@@ -160,6 +160,10 @@ int main()
 		}
 
 	}
+
+	std::cout << "\nPress Enter to exit...";
+	std::cin.ignore();
+	std::cin.get();
 
 	return 0;
 }
